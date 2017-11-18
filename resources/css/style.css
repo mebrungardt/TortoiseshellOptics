@@ -1,0 +1,170 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+
+.maincontainer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+/*Banner includes header and tagline*/
+.bannercontainer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+
+/*Begin header styling */
+.header {
+  margin-top: 1rem;
+  width: 960px;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.name img {
+  height: 1.5rem;
+  padding-left: 2rem;
+}
+
+.name span{
+  padding: 1rem;
+}
+
+.name,.nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav span {
+  margin: 1rem;
+}
+
+.nav {
+  margin-right: 1rem;
+}
+
+/*Begin tagline styling*/
+.bannerwide {
+  display: flex;
+  justify-content: flex-end;
+  width: 1032px;
+}
+
+.tagline {
+  margin-top: 10rem;
+  background-color: white;
+}
+
+.tagline h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 1.5rem 5rem;
+}
+
+/*Begin offers styling*/
+.offerscontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.offers {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+}
+
+.offer1, .offer2, .offer3 {
+  width: 5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.offer1 img {
+  width: 3.5rem;
+}
+
+.offer2 img {
+  width: 5rem;
+}
+
+.offer3 img{
+  width: 5rem;
+}
+
+/*Begin about styling*/
+.aboutcontainer {
+  display:flex;
+  justify-content: center;
+}
+
+.about {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+}
+
+.ab1,.ab2 {
+  width: 35%;
+}
+
+.ab1 {
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+.abtitle {
+  background-color: cadetblue;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  padding: .5rem 1.25rem;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.about p{
+  line-height: 1.4;
+}
+
+/*Begin footer styling*/
+.footercontainer {
+  display: flex;
+  justify-content: center;
+  background-color: azure;
+  height: 9.5rem;
+
+}
+footer {
+  width: 1032px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer img {
+  height: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
