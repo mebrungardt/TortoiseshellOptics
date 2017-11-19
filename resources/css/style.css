@@ -55,6 +55,10 @@ html {
   margin-right: 1rem;
 }
 
+.menu {
+  display: none;
+}
+
 /*Begin tagline styling*/
 .bannerwide {
   display: flex;
@@ -167,4 +171,116 @@ footer img {
   height: 1.5rem;
   margin-left: 4rem;
   margin-right: 1rem;
+}
+
+/*Begin Tablet style changes*/
+@media only screen and (max-width: 1024px) {
+  .header, .bannerwide, .offers, .about {
+    width: 100%;
+  }
+
+  .bannercontainer {
+    height: 22rem;
+  }
+
+  .header {
+    margin-top: 0;
+  }
+
+  .tagline {
+    margin-top: 5rem;
+  }
+  .tagline h1 {
+      font-size: 1.33rem;
+      padding: .75rem 4rem;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+  .bannercontainer {
+    height: 17rem;
+    background-position: 25% 75%;
+    background-size: cover;
+  }
+
+  .tagline {
+    margin-top: 9rem;
+    width: 100%;
+  }
+
+  .tagline h1 {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .menu {
+    display: flex;
+    margin-right: 1.5rem;
+  }
+
+  .header {
+    height: 3rem;
+  }
+
+  .name span {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .offers {
+    align-items: center;
+    flex-flow: column nowrap;
+  }
+
+  .offer1, .offer2, .offer3 {
+    margin: 1.54rem;
+    font-size: .77rem;
+  }
+
+  .offertext {
+    margin-top: 1.54rem;
+  }
+
+  .offer1 {
+    margin-top: 3.77rem;
+  }
+
+  .offer3 {
+    margin-bottom: 3.77rem;
+  }
+
+  .about {
+    flex-flow: column nowrap;
+  }
+
+  .ab1, .ab2 {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .about p {
+    font-size: .77rem;
+    padding-left: .5rem
+  }
+
+  .abtitle {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer span {
+    display: none;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  footer img {
+    margin: 0;
+  }
 }
